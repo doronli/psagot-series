@@ -27,4 +27,3 @@ C:\visual studio project\Series And Movies\Series And Movies\obj\Debug\netcoreap
 C:\visual studio project\Series And Movies\Series And Movies\obj\Debug\netcoreapp2.2\Series And Movies.dll
 C:\visual studio project\Series And Movies\Series And Movies\obj\Debug\netcoreapp2.2\Series And Movies.pdb
 C:\visual studio project\Series And Movies\Series And Movies\obj\Debug\netcoreapp2.2\Series And Movies.csproj.CopyComplete
-C:\visual studio project\Series And Movies\Series And Movies\obj\Debug\netcoreapp2.2\Razor\Views\Home\SeriesDetails.g.cshtml.cs

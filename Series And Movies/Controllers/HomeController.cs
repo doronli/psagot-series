@@ -25,12 +25,7 @@ namespace Series_And_Movies.Controllers
 
 
         [HttpPost]
-        public IActionResult SeriesChoose(string movie)
-        {
-            Movie curentMovie = JsonConvert.DeserializeObject<Movie>(movie);
-            TempData["currentMovie"] = curentMovie;
-            return RedirectToAction("SeriesDetails");
-        }
+       
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
