@@ -1,0 +1,75 @@
+[
+  {
+    "Id": 1,
+    "ImagePath": "simpsons.jpg",
+    "Title": "Simpsons",
+    "NumOfSeason": 6,
+    "Views": 23456,
+    "Details": "The Simpsons is an American animated sitcom created by Matt Groening for the Fox Broadcasting Company.[1][2][3] The series is a satirical depiction of working-class life, epitomized by the Simpson family, which consists of Homer, Marge, Bart, Lisa, and Maggie. The show is set in the fictional town of Springfield and parodies American culture and society, television, and the human condition."
+  },
+  {
+    "Id": 2,
+    "ImagePath": "BreakingBad.jpg",
+    "Title": "Breaking Bad",
+    "NumOfSeason": 4,
+    "Views": 12344,
+    "Details": "Mild-mannered high school chemistry teacher Walter White thinks his life can't get much worse. His salary barely makes ends meet, a situation not likely to improve once his pregnant wife gives birth, and their teenage son is battling cerebral palsy. But Walter is dumbstruck when he learns he has terminal cancer. Realizing that his illness probably will ruin his family financially, Walter makes a desperate bid to earn as much money as he can in the time he has left by turning an old RV into a meth lab on wheels."
+
+  },
+  {
+    "Id": 3,
+    "ImagePath": "dexter.jpg",
+    "Title": "Dexter",
+    "NumOfSeason": 7,
+    "Views": 45678,
+    "Details": "Dexter Morgan is a Miami-based blood splatter expert who doesn't just solve murders; he commits them too. In fact, he's a serial killer -- but he only murders the guilty, so he feels justified with his lifestyle choices. His policewoman sister and his cop co-workers have no idea Dexter lives a double life; however, adoptive father Harry knows his secret, and does, in fact, help Dexter hone his 'skills'. It's a unique brand of justice for which charming Dexter feels a psychological hunger."
+  },
+  {
+    "Id": 4,
+    "ImagePath": "dragonBallZ.jpg",
+    "Title": "Dragon Ball Z",
+    "NumOfSeason": 9,
+    "Views": 345678,
+    "Details": "follows the adventures of Goku who, along with the Z Warriors, defends the Earth against evil. The action adventures are entertaining and reinforce the concept of good versus evil. Dragon Ball teaches valuable character virtues such as teamwork, loyalty"
+  },
+  {
+    "Id": 5,
+    "ImagePath": "pokemon.jpg",
+    "Title": "Pokemon",
+    "NumOfSeason": 6,
+    "Views": 23456,
+    "Details": "Pokémon is a series of video games developed by Game Freak and published by Nintendo and The Pokémon Company as part of the Pokémon media franchise"
+  },
+  {
+    "Id": 6,
+    "ImagePath": "naruto.jpg",
+    "Title": "Naturo",
+    "NumOfSeason": 13,
+    "Views": 456789,
+    "Details": "Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks to gain recognition from his peers and also dreams of becoming the Hokage, the leader of his village"
+  },
+  {
+    "Id": 7,
+    "ImagePath": "pirateOfTheCaribbean.jpg",
+    "Title": "Pirates of the Caribbean",
+    "NumOfSeason": 5,
+    "Views": 1234567,
+    "Details": "Capt. Jack Sparrow (Johnny Depp) arrives at Port Royal in the Caribbean without a ship or crew. His timing is inopportune, however, because later that evening the town is besieged by a pirate ship. The pirates kidnap the governor's daughter, Elizabeth (Keira Knightley), who's in possession of a valuable coin that is linked to a curse that has transformed the pirates into the undead. A gallant blacksmith (Orlando Bloom) in love with Elizabeth allies with Sparrow in pursuit of the pirates."
+  },
+  {
+    "Id": 8,
+    "ImagePath": "matrix.jpg",
+    "Title": "Matrix",
+    "NumOfSeason": 4,
+    "Views": 4735289,
+    "Details": "Neo (Keanu Reeves) believes that Morpheus (Laurence Fishburne), an elusive figure considered to be the most dangerous man alive, can answer his question -- What is the Matrix? Neo is contacted by Trinity (Carrie-Anne Moss), a beautiful stranger who leads him into an underworld where he meets Morpheus. They fight a brutal battle for their lives against a cadre of viciously intelligent secret agents. It is a truth that could cost Neo something more precious than his life."
+  },
+  {
+    "Id": 9,
+    "ImagePath": "NinjaTurtles.jpg",
+    "Title": "Ninja Turtles",
+    "NumOfSeason": 12,
+    "Views": 345678,
+    "Details": "The Teenage Mutant Ninja Turtles are four fictional teenaged anthropomorphic turtles named after Italian Renaissance artists. They were trained by their anthropomorphic rat sensei in the art of ninjutsu."
+  }
+]

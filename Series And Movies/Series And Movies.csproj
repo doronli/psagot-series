@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <RootNamespace>Series_And_Movies</RootNamespace>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\BreakingBad.jpg" />
+    <None Include="wwwroot\Images\dexter.jpg" />
+    <None Include="wwwroot\Images\dragonBallZ.jpg" />
+    <None Include="wwwroot\Images\matrix.jpg" />
+    <None Include="wwwroot\Images\naruto.jpg" />
+    <None Include="wwwroot\Images\NinjaTurtles.jpg" />
+    <None Include="wwwroot\Images\pirateOfTheCaribbean.jpg" />
+    <None Include="wwwroot\Images\pokemon.jpg" />
+    <None Include="wwwroot\Images\simpsons.jpg" />
+  </ItemGroup>
+
+</Project>

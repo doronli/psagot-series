@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+    <div ng-app="moviesFilterApp" ng-controller="myCtrl">
+
+        @* order by*@
+        <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Order By
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button" ng-click="OrderBy('title')">Name</button>
+                <button class="dropdown-item" type="button" ng-click="OrderBy('views')">Views</button>
+                <button class="dropdown-item" type="button" ng-click="OrderBy('numOfSeason')">Seasons</button>
+            </div>
+        </div>
+
+        @* filter by user search*@
+        <div class="form-group row">
+            <label class="col-form-label col-lg-2 col-md-4 col-sm-4 h3">Search series:</label>
+            <div class=" col-lg-4 col-md-7 col-sm-8">
+                <input type="text" ng-model="search.title" class="form-control" placeholder="Search series">
+            </div>
+        </div>
+
+        @* card  *@
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3" 
+                 ng-repeat="movie in seriesAndMovies | orderBy: orderBy | filter: search">
+                <div class="card" style="width: 18rem; cursor:pointer" 
+                     ng-click="SeriesDetails(movie)"
+                     ng-class="{shadow: hover}"
+                     ng-mouseenter="hover = true"
+                     ng-mouseleave="hover = false">
+                    <img src="~/Images/{{movie.imagePath}}" class="card-img-top" alt="{{movie.title}}" width="150px" height="150px">
+                    <div class="card-body">
+                        <h5 class="card-title">{{movie.title}}</h5>
+                        <p class="card-text">
+                            <span class="font-weight-bold">Seasons: </span> {{movie.numOfSeason}}
+                        </p>
+                        <p class="card-text">
+                            <span class="font-weight-bold">Views: </span> {{movie.views}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     @* Modal to show movie details *@
+    <div class="modal fade" id="modal-movie-detail" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <img id="modal-img" src="~/Images/" class="img-fluid">
+                <h3 class="mt-4" id="modal-title"></h3>
+                <p class="card-text">
+                    <span class="font-weight-bold">Seasons: </span> 
+                    <span id="modal-numOfSeason"></span>
+                </p>
+                <p class="card-text">
+                    <span class="font-weight-bold">Views: </span>
+                    <span id="modal-views"></span>
+
+                </p>
+                <p class="card-text">
+                    <span class="font-weight-bold">Detail: </span>
+                    <span id="modal-details"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+       
+    </div>
